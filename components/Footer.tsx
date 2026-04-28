@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-white font-bold text-xl tracking-widest uppercase mb-3">
-              VTC<span className="text-silver-400"> Rioja</span>
+              VTC<span className="text-silver-400"> Transport Rioja</span>
             </h3>
             <p className="text-silver-400 text-sm leading-relaxed mb-4 max-w-xs">
               Transporte privado premium en vehículo eléctrico Tesla. Lujo,

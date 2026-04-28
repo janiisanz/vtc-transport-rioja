@@ -123,7 +123,7 @@ export default function BookingForm() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="bg-graphite-800 rounded-2xl border border-graphite-700 p-6 sm:p-8"
+          className="bg-graphite-800 rounded-2xl border border-graphite-700 p-6 sm:p-8 overflow-hidden"
         >
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Row 1: Nombre + Teléfono */}
@@ -186,7 +186,7 @@ export default function BookingForm() {
                 required
                 value={form.fecha}
                 onChange={(e) => set('fecha', e.target.value)}
-                className={`${inputCls} [color-scheme:dark]`}
+                className={`${inputCls} max-w-full [color-scheme:dark]`}
               />
             </div>
 
@@ -198,7 +198,7 @@ export default function BookingForm() {
                 required
                 value={form.hora}
                 onChange={(e) => set('hora', e.target.value)}
-                className={`${inputCls} [color-scheme:dark]`}
+                className={`${inputCls} max-w-full [color-scheme:dark]`}
               />
             </div>
 

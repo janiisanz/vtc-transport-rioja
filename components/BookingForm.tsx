@@ -178,28 +178,28 @@ export default function BookingForm() {
               />
             </div>
 
-            {/* Row 2: Fecha + Hora */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className={labelCls}>Fecha *</label>
-                <input
-                  type="date"
-                  required
-                  value={form.fecha}
-                  onChange={(e) => set('fecha', e.target.value)}
-                  className={`${inputCls} [color-scheme:dark]`}
-                />
-              </div>
-              <div>
-                <label className={labelCls}>Hora *</label>
-                <input
-                  type="time"
-                  required
-                  value={form.hora}
-                  onChange={(e) => set('hora', e.target.value)}
-                  className={`${inputCls} [color-scheme:dark]`}
-                />
-              </div>
+            {/* Fecha */}
+            <div>
+              <label className={labelCls}>Fecha *</label>
+              <input
+                type="date"
+                required
+                value={form.fecha}
+                onChange={(e) => set('fecha', e.target.value)}
+                className={`${inputCls} [color-scheme:dark]`}
+              />
+            </div>
+
+            {/* Hora */}
+            <div>
+              <label className={labelCls}>Hora *</label>
+              <input
+                type="time"
+                required
+                value={form.hora}
+                onChange={(e) => set('hora', e.target.value)}
+                className={`${inputCls} [color-scheme:dark]`}
+              />
             </div>
 
             {/* Equipaje */}

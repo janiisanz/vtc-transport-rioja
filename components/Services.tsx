@@ -85,9 +85,10 @@ export default function Services({ services }: Props) {
         {/* Cards grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((service, i) => {
+            const slug = 'slug' in service ? (service as Service).slug : ''
             const icon =
               (service as typeof FALLBACK_SERVICES[0]).serviciosMeta?.icono ??
-              ICON_MAP[service.slug?.split('-')[0]] ??
+              ICON_MAP[slug?.split('-')[0] ?? ''] ??
               '🚗'
             const price =
               (service as typeof FALLBACK_SERVICES[0]).serviciosMeta?.precio

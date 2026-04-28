@@ -67,7 +67,7 @@ export default function Hero() {
           Viajes privados
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-silver-300 via-white to-silver-400">
-            premium en Tesla
+            premium en Tesla de 7 plazas
           </span>
         </motion.h1>
 

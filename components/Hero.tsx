@@ -53,7 +53,7 @@ export default function Hero() {
         >
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
           <span className="text-silver-300 text-xs tracking-[0.2em] uppercase font-medium">
-            Servicio Premium · España
+            Servicio Premium · La Rioja
           </span>
         </motion.div>
 

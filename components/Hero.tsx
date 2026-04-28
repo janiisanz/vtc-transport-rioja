@@ -44,19 +44,6 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6">
-        {/* Badge */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="inline-flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full border border-silver-400/30 bg-white/5 backdrop-blur-sm"
-        >
-          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="text-silver-300 text-xs tracking-[0.2em] uppercase font-medium">
-            Servicio Premium · España
-          </span>
-        </motion.div>
-
         {/* Main title */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}

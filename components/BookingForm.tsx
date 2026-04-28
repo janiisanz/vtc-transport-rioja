@@ -179,25 +179,25 @@ export default function BookingForm() {
             </div>
 
             {/* Row 2: Fecha + Hora */}
-            <div className="grid grid-cols-2 gap-4">
-              <div className="min-w-0 overflow-hidden">
+            <div className="grid grid-cols-2 gap-2 sm:gap-4">
+              <div className="min-w-0">
                 <label className={labelCls}>Fecha *</label>
                 <input
                   type="date"
                   required
                   value={form.fecha}
                   onChange={(e) => set('fecha', e.target.value)}
-                  className={`${inputCls} [color-scheme:dark]`}
+                  className="w-full min-w-0 bg-graphite-800 border border-graphite-600 rounded-lg px-2 py-2.5 sm:px-4 sm:py-3 text-white text-xs sm:text-sm placeholder-silver-500 focus:outline-none focus:border-silver-400 focus:bg-graphite-700 transition-all duration-200 [color-scheme:dark]"
                 />
               </div>
-              <div className="min-w-0 overflow-hidden">
+              <div className="min-w-0">
                 <label className={labelCls}>Hora *</label>
                 <input
                   type="time"
                   required
                   value={form.hora}
                   onChange={(e) => set('hora', e.target.value)}
-                  className={`${inputCls} [color-scheme:dark]`}
+                  className="w-full min-w-0 bg-graphite-800 border border-graphite-600 rounded-lg px-2 py-2.5 sm:px-4 sm:py-3 text-white text-xs sm:text-sm placeholder-silver-500 focus:outline-none focus:border-silver-400 focus:bg-graphite-700 transition-all duration-200 [color-scheme:dark]"
                 />
               </div>
             </div>

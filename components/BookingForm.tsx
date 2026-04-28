@@ -179,8 +179,8 @@ export default function BookingForm() {
             </div>
 
             {/* Row 2: Fecha + Hora */}
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="min-w-0 overflow-hidden">
                 <label className={labelCls}>Fecha *</label>
                 <input
                   type="date"
@@ -190,7 +190,7 @@ export default function BookingForm() {
                   className={`${inputCls} [color-scheme:dark]`}
                 />
               </div>
-              <div>
+              <div className="min-w-0 overflow-hidden">
                 <label className={labelCls}>Hora *</label>
                 <input
                   type="time"

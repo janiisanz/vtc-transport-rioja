@@ -18,7 +18,7 @@ const DESCRIPTION =
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'VTC Transport Rioja | Transporte Privado Premium en Tesla',
+    default: 'VTC Transport Rioja | Transporte Privado Premium en Tesla de 7 plazas',
     template: '%s | VTC Transport Rioja',
   },
   description: DESCRIPTION,
@@ -40,20 +40,20 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: 'VTC Transport Rioja | Transporte Privado Premium en Tesla',
+    title: 'VTC Transport Rioja | Transporte Privado Premium en Tesla de 7 plazas',
     description: DESCRIPTION,
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'VTC Transport Rioja - Transporte Privado Premium en Tesla',
+        alt: 'VTC Transport Rioja - Transporte Privado Premium en Tesla de 7 plazas',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VTC Transport Rioja | Transporte Privado Premium en Tesla',
+    title: 'VTC Transport Rioja | Transporte Privado Premium en Tesla de 7 plazas',
     description: DESCRIPTION,
     images: ['/og-image.jpg'],
   },

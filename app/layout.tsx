@@ -13,7 +13,7 @@ const inter = Inter({
 const SITE_URL = 'https://www.vtctransporioja.com'
 const SITE_NAME = 'VTC Transport Rioja'
 const DESCRIPTION =
-  'Servicio de transporte privado premium en Tesla en La Rioja. Traslados al aeropuerto, viajes de larga distancia, transporte ejecutivo y turismo privado. Lujo, puntualidad y 0 emisiones.'
+  'Servicio de transporte privado premium en Tesla de 7 plazas en La Rioja. Traslados al aeropuerto, viajes de larga distancia, transporte ejecutivo y turismo privado. Lujo, puntualidad y 0 emisiones.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

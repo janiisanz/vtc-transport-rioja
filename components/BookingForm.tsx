@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { MessageCircle } from 'lucide-react'
 import type { BookingFormData } from '@/types'
 
-const WHATSAPP_NUMBER = '34676623080'
+const WHATSAPP_NUMBER = '34636466175'
 
 const INITIAL: BookingFormData = {
   nombre: '',

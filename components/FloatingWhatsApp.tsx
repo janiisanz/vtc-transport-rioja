@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { MessageCircle, X } from 'lucide-react'
 
-const WHATSAPP_NUMBER = '34676623080'
+const WHATSAPP_NUMBER = '34636466175'
 const WHATSAPP_MESSAGE = encodeURIComponent(
   'Hola, me gustaría obtener más información sobre vuestros servicios de transporte privado La Rioja.'
 )

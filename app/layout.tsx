@@ -80,7 +80,7 @@ const schemaMarkup = {
   name: 'VTC Transport Rioja',
   description: DESCRIPTION,
   url: SITE_URL,
-  telephone: '+34676623080',
+  telephone: '+34636466175',
   email: 'hola@teslavtc.es',
   image: `${SITE_URL}/og-image.jpg`,
   priceRange: '€€€',

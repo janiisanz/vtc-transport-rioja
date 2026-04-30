@@ -4,8 +4,8 @@ import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Phone, ChevronDown } from 'lucide-react'
 
-const PHONE = '+34 676 623 080'
-const PHONE_HREF = 'tel:+34676623080'
+const PHONE = '+34 636 466 175'
+const PHONE_HREF = 'tel:+34636466175'
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null)

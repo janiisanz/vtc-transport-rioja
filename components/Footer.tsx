@@ -1,9 +1,9 @@
 import { Phone, Mail, MessageCircle, Instagram } from 'lucide-react'
 
 const CONTACT = {
-  phone: '+34 676 623 080',
-  phoneHref: 'tel:+34676623080',
-  whatsapp: 'https://wa.me/34676623080',
+  phone: '+34 636 466 175',
+  phoneHref: 'tel:+34636466175',
+  whatsapp: 'https://wa.me/34636466175',
   email: 'hola@teslavtc.es',
   emailHref: 'mailto:hola@teslavtc.es',
   instagram: 'https://instagram.com/teslavtc',

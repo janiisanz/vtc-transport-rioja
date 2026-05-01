@@ -18,7 +18,7 @@ const FALLBACK_SERVICES = [
     id: 'f1',
     title: 'Traslados al Aeropuerto',
     excerpt: 'Llegadas y salidas puntuales con seguimiento de vuelo en tiempo real. Sin sorpresas, sin estrés.',
-    serviciosMeta: { icono: '✈️', precio: 'Desde 45€', descripcionCorta: '' },
+    serviciosMeta: { icono: '✈️', precio: 'A consultar', descripcionCorta: '' },
   },
   {
     id: 'f2',
@@ -30,7 +30,7 @@ const FALLBACK_SERVICES = [
     id: 'f3',
     title: 'Transporte Ejecutivo',
     excerpt: 'Reuniones, conferencias y visitas de negocios. Discreción, puntualidad y presentación impecable.',
-    serviciosMeta: { icono: '💼', precio: 'Desde 60€/h', descripcionCorta: '' },
+    serviciosMeta: { icono: '💼', precio: 'A consultar', descripcionCorta: '' },
   },
   {
     id: 'f4',

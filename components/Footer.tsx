@@ -1,4 +1,4 @@
-import { Phone, Mail, MessageCircle, Instagram } from 'lucide-react'
+import { Phone, MessageCircle, Instagram } from 'lucide-react'
 
 const CONTACT = {
   phone: '+34 636 466 175',
@@ -80,15 +80,6 @@ export default function Footer() {
                 >
                   <MessageCircle size={16} className="flex-shrink-0" />
                   WhatsApp
-                </a>
-              </li>
-              <li>
-                <a
-                  href={CONTACT.emailHref}
-                  className="flex items-center gap-3 text-silver-400 hover:text-white text-sm transition-colors duration-200 group"
-                >
-                  <Mail size={16} className="flex-shrink-0" />
-                  {CONTACT.email}
                 </a>
               </li>
               <li>

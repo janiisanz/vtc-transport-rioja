@@ -8,7 +8,7 @@ const REASONS = [
     icon: Crown,
     title: 'Vehículo Tesla Premium',
     description:
-      'Viaja en un Tesla Model S o Model 3 impecable. Interior de alta gama, asientos de cuero y tecnología de última generación.',
+      'Viaja en un Tesla Model X impecable. Interior de alta gama, asientos de cuero y tecnología de última generación.',
   },
   {
     icon: Volume2,

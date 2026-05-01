@@ -36,7 +36,7 @@ const FALLBACK: Testimonial[] = [
       cargo: 'Consultor Senior',
       valoracion: 5,
       comentario:
-        'Viajé Madrid-Barcelona de noche. Silencio absoluto, asientos cómodos. Llegué descansado y listo para la reunión.',
+        'Viajé Logroño-Madrid de noche. Silencio absoluto, asientos cómodos. Llegué descansado y listo para la reunión.',
     },
   },
   {

@@ -6,8 +6,8 @@ const CONTACT = {
   whatsapp: 'https://wa.me/34636466175',
   email: 'hola@teslavtc.es',
   emailHref: 'mailto:hola@teslavtc.es',
-  instagram: 'https://instagram.com/teslavtc',
-  instagramHandle: '@teslavtc',
+  instagram: 'https://instagram.com/vtctransporioja',
+  instagramHandle: '@vtctransporioja',
 }
 
 const NAV_LINKS = [

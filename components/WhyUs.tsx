@@ -14,7 +14,7 @@ const REASONS = [
     icon: Volume2,
     title: 'Conducción Silenciosa',
     description:
-      'El motor eléctrico de Tesla garantiza un viaje en absoluto silencio. Trabaja, descansa o convesa sin ruidos de motor.',
+      'El motor eléctrico de Tesla garantiza un viaje en absoluto silencio. Trabaja, descansa o conversa sin ruidos de motor.',
   },
   {
     icon: Clock,

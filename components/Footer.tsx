@@ -100,6 +100,10 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-graphite-700 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-silver-500">
           <p>© {new Date().getFullYear()} VTC Transport Rioja. Todos los derechos reservados.</p>
+          <div className="flex gap-4">
+            <a href="/aviso-legal" className="hover:text-silver-300 transition-colors">Aviso Legal</a>
+            <a href="/privacidad" className="hover:text-silver-300 transition-colors">Política de Privacidad</a>
+          </div>
           <p>
             Diseñado con precisión · Conducido con pasión ·{' '}
             <span className="text-emerald-400">0 emisiones</span>

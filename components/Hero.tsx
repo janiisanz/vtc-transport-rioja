@@ -78,8 +78,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg sm:text-xl text-silver-300 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Comodidad absoluta, puntualidad garantizada y transporte sostenible.
           Experimenta el lujo silencioso de viajar en Tesla con chofer privado.
+          No es un Taxi, no es Uber, es un Vehículo de Alquiler con Conductor (VTC).
         </motion.p>
 
         {/* CTAs */}

@@ -71,7 +71,7 @@ export default function WhyUs() {
               Por qué elegir
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-silver-300 to-white">
-                VTC Transport Rioja
+                VTC Logroño Rioja
               </span>
             </h2>
             <p className="text-silver-300 text-lg leading-relaxed mb-8">

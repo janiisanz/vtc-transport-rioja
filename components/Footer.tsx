@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-white font-bold text-xl tracking-widest uppercase mb-3">
-              VTC<span className="text-silver-400"> Transport Rioja</span>
+              VTC<span className="text-silver-400"> Logroño Rioja</span>
             </h3>
             <p className="text-silver-400 text-sm leading-relaxed mb-4 max-w-xs">
               Transporte privado premium en vehículo eléctrico Tesla. Lujo,
@@ -99,7 +99,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-graphite-700 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-silver-500">
-          <p>© {new Date().getFullYear()} VTC Transport Rioja. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} VTC Logroño Rioja. Todos los derechos reservados.</p>
           <div className="flex gap-4">
             <a href="/aviso-legal" className="hover:text-silver-300 transition-colors">Aviso Legal</a>
             <a href="/privacidad" className="hover:text-silver-300 transition-colors">Política de Privacidad</a>

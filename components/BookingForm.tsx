@@ -20,7 +20,7 @@ const INITIAL: BookingFormData = {
 
 function buildWhatsAppMessage(data: BookingFormData): string {
   return encodeURIComponent(
-    `Nueva reserva VTC Transport Rioja\n\n` +
+    `Nueva reserva VTC Logroño Rioja\n\n` +
     `Nombre: ${data.nombre}\n` +
     `Teléfono: ${data.telefono}\n` +
     `Recogida: ${data.recogida}\n` +
@@ -29,7 +29,7 @@ function buildWhatsAppMessage(data: BookingFormData): string {
     `Destino: ${data.destino}\n` +
     `Fecha: ${data.fecha}\n` +
     `Hora: ${data.hora}\n\n` +
-    `_Enviado desde vtctransporioja.com_`
+    `_Enviado desde vtclogronorioja.com_`
   )
 }
 

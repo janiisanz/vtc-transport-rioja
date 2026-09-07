@@ -22,14 +22,14 @@ export default function AvisoLegal() {
             <li><span className="text-silver-300 font-medium">NIF:</span> 16552329B</li>
             <li><span className="text-silver-300 font-medium">Dirección:</span> C/ Alfonso VI 12, La Rioja</li>
             <li><span className="text-silver-300 font-medium">Teléfono:</span> +34 636 466 175</li>
-            <li><span className="text-silver-300 font-medium">Web:</span> vtctransporioja.com</li>
+            <li><span className="text-silver-300 font-medium">Web:</span> vtclogronorioja.com</li>
           </ul>
         </section>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-white mb-3">2. Objeto y ámbito de aplicación</h2>
           <p className="text-silver-400 leading-relaxed">
-            El presente Aviso Legal regula el uso del sitio web vtctransporioja.com, titularidad de
+            El presente Aviso Legal regula el uso del sitio web vtclogronorioja.com, titularidad de
             Juan Carlos Sánchez Herrero, dedicado a la prestación de servicios de transporte privado
             de viajeros (VTC) en La Rioja y resto de España.
           </p>

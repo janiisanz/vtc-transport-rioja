@@ -36,7 +36,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
             <span className="text-white font-bold text-xl tracking-widest uppercase">
-              VTC<span className="text-silver-300"> Transport Rioja</span>
+              VTC<span className="text-silver-300"> Logroño Rioja</span>
             </span>
           </a>
 

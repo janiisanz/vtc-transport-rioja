@@ -10,16 +10,16 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-const SITE_URL = 'https://www.vtctransporioja.com'
-const SITE_NAME = 'VTC Transport Rioja'
+const SITE_URL = 'https://www.vtclogronorioja.com'
+const SITE_NAME = 'VTC Logroño Rioja'
 const DESCRIPTION =
   'Servicio de transporte privado premium en Tesla de 7 plazas en La Rioja. Traslados al aeropuerto, viajes de larga distancia, transporte ejecutivo y turismo privado. Lujo, puntualidad y 0 emisiones.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'VTC Transport Rioja | Transporte Privado Premium en Tesla de 7 plazas',
-    template: '%s | VTC Transport Rioja',
+    default: 'VTC Logroño Rioja | Transporte Privado Premium en Tesla de 7 plazas',
+    template: '%s | VTC Logroño Rioja',
   },
   description: DESCRIPTION,
   keywords: [
@@ -33,27 +33,27 @@ export const metadata: Metadata = {
     'vtc logroño',
     'transfer rioja',
   ],
-  authors: [{ name: 'VTC Transport Rioja' }],
-  creator: 'VTC Transport Rioja',
+  authors: [{ name: 'VTC Logroño Rioja' }],
+  creator: 'VTC Logroño Rioja',
   openGraph: {
     type: 'website',
     locale: 'es_ES',
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: 'VTC Transport Rioja | Transporte Privado Premium en Tesla de 7 plazas',
+    title: 'VTC Logroño Rioja | Transporte Privado Premium en Tesla de 7 plazas',
     description: DESCRIPTION,
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'VTC Transport Rioja - Transporte Privado Premium en Tesla de 7 plazas',
+        alt: 'VTC Logroño Rioja - Transporte Privado Premium en Tesla de 7 plazas',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VTC Transport Rioja | Transporte Privado Premium en Tesla de 7 plazas',
+    title: 'VTC Logroño Rioja | Transporte Privado Premium en Tesla de 7 plazas',
     description: DESCRIPTION,
     images: ['/og-image.jpg'],
   },
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
 const schemaMarkup = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'VTC Transport Rioja',
+  name: 'VTC Logroño Rioja',
   description: DESCRIPTION,
   url: SITE_URL,
   telephone: '+34636466175',
